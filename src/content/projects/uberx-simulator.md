@@ -1,7 +1,7 @@
 ---
 title: "UberX — Ride Simulation Platform"
 description: "Simulating real-time ride dispatch and fleet management using Rust, NATS, Redis, and PostgreSQL."
-image: "https://api.dicebear.com/9.x/glass/svg?seed=Jocelyn"
+image: "../../assets/projects/uberx-thumbnail.png"
 link: "https://github.com/yossriK/UberSimX"
 startDate: "2025-08"
 skills:

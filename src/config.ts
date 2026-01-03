@@ -131,7 +131,7 @@ export const siteConfig: SiteConfig = {
     blog: true,
     work: true,
     education: true,
-    hackathons: true,
+    hackathons: false,
     contact: true,
   },
 };

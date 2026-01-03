@@ -1,7 +1,7 @@
 ---
 title: "PKSound Rental Speaker GPS Tracking & Auto-billing"
 description: "An integrated IoT solution for real-time GPS tracking of rental speakers, featuring live location monitoring, geofencing capabilities, and rental management."
-image: "https://api.dicebear.com/9.x/glass/svg? seed=PKSound"
+image: "../../assets/projects/pksound.jpg"
 startDate: "2021-09"
 endDate: "2022-04"
 skills: ["Python", "C#", "IoT", "GPS Tracking", "Real-time Systems", "Web Development", "Embedded Systems", "Database Management"]
