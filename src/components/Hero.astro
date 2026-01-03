@@ -1,6 +1,7 @@
 ---
 import { FolderCode } from "@lucide/astro";
 import { Image } from "astro:assets";
+import { FileText } from "@lucide/astro";
 
 interface Props {
   name: string;
@@ -16,6 +17,7 @@ interface Props {
     instagram?: string;
     youTube?: string;
     codetips?: string;
+    resume?:string;
   };
 }
 
@@ -158,6 +160,18 @@ const { name, title, description, avatar, location, socialLinks } = Astro.props;
                 aria-label="CodeTips"
               >
                 <FolderCode class="size-6" />
+              </a>
+            )}
+            {socialLinks.resume && (
+              <a
+                href={socialLinks.resume}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-circle btn-ghost"
+                aria-label="Resume"
+                title="Resume"
+              >
+                <FileText class="size-6" />
               </a>
             )}
           </div>

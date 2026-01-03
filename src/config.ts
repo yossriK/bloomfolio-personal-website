@@ -19,6 +19,7 @@ export interface SocialLinks {
   instagram?: string;
   youTube?: string;
   codetips?: string;
+  resume?:string;
 }
 
 /**
@@ -95,40 +96,27 @@ export interface SiteConfig {
  * Update these values to customize your portfolio
  */
 export const siteConfig: SiteConfig = {
-  name: "🌻 Bloomfolio",
-  title: "Astro Portfolio Template built with 🌼 DaisyUI",
+  name: "Yossri Khalil",
+  title: "Backend & Systems Engineer",
   description:
-    "A modern, responsive, and customizable portfolio template built with Astro and DaisyUI. Perfect for developers, designers, and creatives to showcase their work and skills.",
+    "Backend / Systems Engineer focused on scalable services, platform infrastructure, and systems built on Linux-based environments, with experience across authentication, internal platforms, and long-lived backend services.",
   avatar: "../assets/bloomfolio.png",
-  location: "🇧🇷 Brazil",
-  email: "hello@example.com",
+  location: "🇨🇦 Canada · Open to Remote",
+  email: "yossri.khalil@gmail.com",
   socialLinks: {
-    github: "https://github.com/lauroguedes",
-    linkedin: "https://linkedin.com/in/lauroguedes",
-    twitter: "https://twitter.com/leowg",
-    bluesky: "https://bsky.app/profile/lauroguedes.bsky.social",
-    instagram: "https://instagram.com/lauroguedes.dev",
-    youTube: "https://youtube.com/leowgweb",
-    codetips: "https://codetips.cloud/u/lauroguedes",
+    github: "https://github.com/yossriK",
+    linkedin: "https://linkedin.com/in/yossrikhalil",
+    instagram: "https://www.instagram.com/yossrikhalil/",
+    resume: "/resume",
   },
   enableThemeSelector: true,
   extraLinks: {
     enable: true,
     links: [
       {
-        link: "/blog/guides/bloomfolio-complete-guide",
-        icon: Flower2,
-        label: "Bloomfolio Guide",
-      },
-      {
-        link: "/blog/guides/content-collections-guide",
-        icon: BookOpen,
-        label: "Content Guide",
-      },
-      {
-        link: "/blog/guides/markdown-guide",
+        link: "/resume",
         icon: FileText,
-        label: "Markdown Guide",
+        label: "Resume",
       },
       {
         link: "https://github.com/lauroguedes/bloomfolio",
