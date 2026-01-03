@@ -1,0 +1,7 @@
+name = "bloomfolio-personal-website"    # must match the name your CI expects
+compatibility_date = "2026-01-03"       # today's date in YYYY-MM-DD format
+
+# Site configuration
+[site]
+bucket = "./dist"                       # Astro's output folder
+entry-point = "workers-site"            # default for Workers Sites
