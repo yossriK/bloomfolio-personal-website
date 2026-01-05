@@ -119,7 +119,7 @@ export const siteConfig: SiteConfig = {
         label: "Resume",
       },
       {
-        link: "https://github.com/lauroguedes/bloomfolio",
+        link: "https://github.com/yossriK",
         icon: CodeXml,
         label: "GitHub Repo",
       },
