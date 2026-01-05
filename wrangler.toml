@@ -1,7 +1,0 @@
-name = "bloomfolio-personal-website"    # must match the name your CI expects
-compatibility_date = "2026-01-03"       # today's date in YYYY-MM-DD format
-main = "workers-site/index.js"          # entry file for the Worker
-
-# Site configuration
-[site]
-bucket = "./dist"                       # Astro's output folder
