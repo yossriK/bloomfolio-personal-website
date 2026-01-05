@@ -101,7 +101,7 @@ export const siteConfig: SiteConfig = {
   description:
     "Backend / Systems Engineer focused on scalable services, platform infrastructure, and systems built on Linux-based environments, with experience across authentication, internal platforms, and long-lived backend services.",
   avatar: "../assets/bloomfolio.png",
-  location: "🇨🇦 Canada · Open to Remote",
+  location: "🇨🇦 Canada·",
   email: "yossri.khalil@gmail.com",
   socialLinks: {
     github: "https://github.com/yossriK",
