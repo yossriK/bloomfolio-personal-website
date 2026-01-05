@@ -1,7 +1,7 @@
 ---
 title: "University of Calgary"
 subtitle: "B.Sc. in Software Engineering"
-startDate: "2017-09-01"
+startDate: "2017-09-02"
 endDate: "2022-06-01"
 logo: "/images/logos/UCalgary_Vertical_logo_colour_BlackBackground.webp"
 link: "https://schulich.ucalgary.ca/"
